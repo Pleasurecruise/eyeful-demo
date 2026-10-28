@@ -190,9 +190,6 @@ class Blueprint(Scaffold):
             root_path=root_path,
         )
 
-        if not name:
-            raise ValueError("'name' may not be empty.")
-
         if "." in name:
             raise ValueError("'name' may not contain a dot '.' character.")
 
