@@ -1,0 +1,3 @@
+setup: python -m pip install -r requirements.txt
+test: python -m pytest tests
+test_one: python -m pytest {test}
