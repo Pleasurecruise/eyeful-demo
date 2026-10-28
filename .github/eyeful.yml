@@ -1,0 +1,3 @@
+setup: python -m pip install -r requirements.txt
+test: python -m pytest sympy/core sympy/polys
+test_one: python -m pytest {test}
