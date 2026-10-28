@@ -16,4 +16,4 @@ and again on a `/eyeful` comment. Only `main` holds the workflow, and the review
 | Case | Source | Bug | Pull request |
 | --- | --- | --- | --- |
 | `pallets__flask-5014` | [SWE-bench Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified) | [pallets/flask#5014](https://github.com/pallets/flask/issues/5014): a Blueprint accepts an empty name | [#1](https://github.com/Pleasurecruise/eyeful-demo/pull/1) |
-| `psf__requests-5414` | [SWE-bench Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified) | [psf/requests#5414](https://github.com/psf/requests/pull/5414): `http://.example.com` raises `UnicodeError` instead of `InvalidURL` | |
+| `psf__requests-5414` | [SWE-bench Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified) | [psf/requests#5414](https://github.com/psf/requests/pull/5414): `http://.example.com` raises `UnicodeError` instead of `InvalidURL` | [#2](https://github.com/Pleasurecruise/eyeful-demo/pull/2) |
