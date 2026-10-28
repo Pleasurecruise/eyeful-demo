@@ -1,0 +1,3 @@
+setup: python -m pip install -r requirements.txt
+test: python -m pytest sympy/ntheory sympy/solvers/tests/test_solveset.py
+test_one: python -m pytest {test}
